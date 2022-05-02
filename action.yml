@@ -14,6 +14,9 @@ inputs:
   hostname:
     description: "Host"
     required: true
+  options:
+    description: "Command Options"
+    required: true
   serverpath:
     description: "Server Path"
     required: true
