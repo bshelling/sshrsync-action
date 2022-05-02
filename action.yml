@@ -1,6 +1,8 @@
 name: 'SSH Rsync CI/CD Action'
 description: 'CI/CD for deploying assets to server via rsync'
-
+branding:
+  icon: 'server'
+  color: 'orange'
 inputs:
   privkey:
     description: "Server key"
