@@ -1,6 +1,6 @@
 
 # SSH Rsync CI/CD Action
-Github Action enables rsync assets transfered to server
+Github Action enables rsync assets transfer to server
 ## Input values
 - Private server key (RSA format recommended)
 - Host - ipv4 format address
