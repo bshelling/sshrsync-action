@@ -25,6 +25,5 @@ Github Action enables rsync assets transfered to server
 Test action via command line
 ```
 $> docker build -t [image_name] .
-$> docker run [image_name] [private_key_string] [host] [username] [hostname] [options] [server_path]
-
+$> docker run [image_name] [private_key_string] [host] [username] [hostname] [options] [server_path]W
 ```
