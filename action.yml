@@ -1,0 +1,29 @@
+name: 'SSH Rsync CI/CD Action'
+description: 'CI/CD for deploying assets to server via rsync'
+
+inputs:
+  privkey:
+    description: "Server key"
+    required: true
+  host:
+    description: "Host"
+    required: true
+  username:
+    description: "Username"
+    required: true
+  hostname:
+    description: "Host"
+    required: true
+  serverpath:
+    description: "Server Path"
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.privkey }}
+    - ${{ inputs.host }}
+    - ${{ inputs.username }}
+    - ${{ inputs.hostname }}
+    - ${{ inputs.serverpath }}
