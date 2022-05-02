@@ -1,7 +1,7 @@
 
 # SSH Rsync CI/CD Action
 
-# Input values
+### Input values
 - Private server key (RSA format recommended)
 - Host - ipv4 format address
 - Username
