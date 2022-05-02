@@ -10,6 +10,12 @@ Github Action enables rsync assets transfered to server
 
 
 ## Workflow usage
+If the action is private, clone the action to the ./github directory
+```
+/.github
+    |-> actions
+        |-> sshrsync-ation
+```
 ```
 - uses: ./.github/actions/sshrsync-action
     with:
